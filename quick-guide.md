@@ -15,6 +15,10 @@ mkdir	“name of the folder”	// Make Directory, it makes one new directory wit
 rmdir	“name of the folder”	// Remove Directory, it removes one existing directory with the 
                                 // given name.
 
+touch new-file-name.smth	// creates a new file with the given name
+
+cat file-name	// shows the content of a file in the terminal
+
 
 Git commands
 
