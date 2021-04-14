@@ -50,12 +50,20 @@ git status  // shows the status of your directory such as
 Git commands to interact with GitHub:
 
 
-git push the-https-link-of-your-dierectory
+git push the-https-link-of-your-dierectory      // it will push all your commits of
+                                                // your local git repository to the
+                                                // GitHub reposiory
 
-git clone the-https-link-of-the-dierectory
+git clone the-https-link-of-the-dierectory      // it will download all your files
+                                                // from the GitHub repository into
+                                                // the folder of your local machine
 
-git pull the-https-link-of-the-dierectory
+git pull the-https-link-of-the-dierectory       // it will update all your files
+                                                // from the GitHub repository into
+                                                // the folder of your local machine
 
 
-Git commands to look at
-git diff
+NOTE: If you are looking for a command line and didn't find it here
+I would advise you to look at the "complete" guide. In order to not
+make this a big guide and overwhelm the reader (which in not what I
+want), I will put all the command lines in the complete guide.
