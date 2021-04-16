@@ -5,10 +5,19 @@ By Gabriel Souza Silva
 
 
  
-Introduction - What you will find here ?
+### Contents:
+
+###### What is git?
+###### What is version control?
+###### Pre-git commands – aka Bash commands
+###### Git commands
+###### - Most used commands
+###### - Git commands to interact with GitHub
+
+
 
  
-What is git?
+## What is git?
 - Git is a free open-source version control system.
 What is GitHub?
 I'm glad you asked! Many people come to GitHub because they want to contribute to open source projects, or they're invited by teammates or classmates who use it for their projects. Why do people use GitHub for these projects?
@@ -20,7 +29,7 @@ GitHub helps people do much more.
 GitHub is used to build some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics, but we'll dig into the rest later!
 
 
-What is version control?
+## What is version control?
 -	The management of changes to documents, computer programs, large websites, and other collection of information.
 
 Terms 
@@ -60,11 +69,8 @@ to bring a directory down to your local machine
 git clone “https://github.com/the ssh link to the GitHub repository”
 
 
-# Quick Guide to Git and GitHub
 
-If you already read the full guide or know about Git and GitHub, and need to just revise the commands, then this is for you!
-
-Pre-git commands – aka Bash commands 
+## Pre-git commands – aka Bash commands 
 
 cd “the path” 	// Change Directory (or folder), changes the directory according to the given
                 // path
@@ -82,7 +88,7 @@ touch new-file-name.smth	// creates a new file with the given name
 cat file-name	// shows the content of a file in the terminal
 
 
-Git commands
+## Git commands
 
 
 git --version	// to check the git version
@@ -96,7 +102,7 @@ git config --global user.email “your_email_on_GitHub” 		// to register your 
 git config --global core.editor “the_code_editor”		// to assign a code editor
 
 
-Most used commands:
+### Most used commands:
 
 
 git init		// initialize the folder as a git repositorygit
@@ -106,14 +112,19 @@ git add “file_name”	// the name of the file that you want to commit (track)
 git commit -m “just_added_the file”	// to save a version of the file
 					// and then you add a description to it
                     
-git log	// to se the commits(saves) that you did in the file
+git log	// to see the commits(saves) that you did in the file
 
+git log --graph // to see the commits(saves) that you did in the file
+                // in a tree like form
+                
+git log --graph --all  // to see the commits(saves) that you did in all the files
+                       // in a tree like form
 
 git status  // shows the status of your directory such as
             // if you had modified a file and not commited it
             
             
-Git commands to interact with GitHub:
+### Git commands to interact with GitHub:
 
 
 git push the-https-link-of-your-dierectory      // it will push all your commits of
@@ -127,13 +138,18 @@ git clone the-https-link-of-the-dierectory      // it will download all your fil
 git pull the-https-link-of-the-dierectory       // it will update all your files
                                                 // from the GitHub repository into
                                                 // the folder of your local machine
+                                                
+git branch  // shows all the branchs and main as well
+
+git branch
                                             
-git diff
+git diff first-file-name second-file-name
+
+git merge branch-name   // it will make the content of the main the same as
+                        // the one in the chosen branch
 
 
-
-
-NOTE: If you are looking for a command line and didn't find it here
+__NOTE:__ If you are looking for a command line and didn't find it here
 I would advise you to look at the "complete" guide. In order to not
 make this a big guide and overwhelm the reader (which in not what I
 want), I will put all the command lines in the complete guide.
