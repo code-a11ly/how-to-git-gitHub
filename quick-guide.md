@@ -2,7 +2,7 @@
 
 If you already read the full guide or know about Git and GitHub, and need to just revise the commands, then this is for you!
 
-Pre-git commands – aka Bash commands 
+## Pre-git commands – aka Bash commands 
 
 cd “the path” 	// Change Directory (or folder), changes the directory according to the given
                 // path
@@ -20,7 +20,7 @@ touch new-file-name.smth	// creates a new file with the given name
 cat file-name	// shows the content of a file in the terminal
 
 
-Git commands
+## Git commands
 
 
 git --version	// to check the git version
@@ -34,7 +34,7 @@ git config --global user.email “your_email_on_GitHub” 		// to register your 
 git config --global core.editor “the_code_editor”		// to assign a code editor
 
 
-Most used commands:
+### Most used commands:
 
 
 git init		// initialize the folder as a git repositorygit
@@ -51,7 +51,7 @@ git status  // shows the status of your directory such as
             // if you had modified a file and not commited it
             
             
-Git commands to interact with GitHub:
+### Git commands to interact with GitHub:
 
 
 git push the-https-link-of-your-dierectory      // it will push all your commits of
@@ -67,7 +67,9 @@ git pull the-https-link-of-the-dierectory       // it will update all your files
                                                 // the folder of your local machine
 
 
-NOTE: If you are looking for a command line and didn't find it here
+
+
+__NOTE:__ If you are looking for a command line and didn't find it here
 I would advise you to look at the "complete" guide. In order to not
 make this a big guide and overwhelm the reader (which in not what I
 want), I will put all the command lines in the complete guide.
