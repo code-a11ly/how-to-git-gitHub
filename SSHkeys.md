@@ -7,15 +7,17 @@ and thus that motivated me to write this really quick guide.
 ### First:
 Head to configurations
 
- 
+![](.image-repo/settings.png) 
 
  
 ### Second:
 SSH and GPS keys 
  
-
+![](.image-repo/creating.png)
  
-New SSH key
+__NOTE:__ From here on you will be in the GitHub guide, and thus
+you will have everything that you need to go on and config your
+SSH keys.
  
 
 
