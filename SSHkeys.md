@@ -4,14 +4,14 @@
 Well, I too was wondering the same till a friend of mine helped me,
 and thus that motivated me to write this really quick guide.
 
-### First:
+### First :shoe::
 Head to configurations
 
 ![](.image-repo/settings.png) 
 
  
-### Second:
-SSH and GPS keys 
+### Second :shoe::
+SSH and GPS keys and generating SSH keys
  
 ![](.image-repo/creating.png)
  
