@@ -5,13 +5,13 @@ Well, I too was wondering the same till a friend of mine helped me,
 and thus that motivated me to write this really quick guide.
 
 ### First :shoe::
-Head to configurations
+Head to sttings
 
 ![](.image-repo/settings.png) 
 
  
 ### Second :shoe::
-SSH and GPS keys and generating SSH keys
+In the menu SSH and GPS keys, click generating SSH keys
  
 ![](.image-repo/creating.png)
  
